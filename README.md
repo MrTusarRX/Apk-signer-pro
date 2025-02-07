@@ -32,9 +32,8 @@ I (**MrTusarRX**) have fixed the auto-close crash issue, removed all known bugs,
 
 🙌 Credits
 
-🎩 Original author: [PuruliaKing007](https://github.com/PuruliaKing007)
 
-original src [ApkSignerTool](https://github.com/PuruliaKing007/ApkSignerTool)
+This Signer Lib was Made By [Developer Krushna](https://github.com/developer-krushna?tab=repositories)
 
 🛠 Modifications, bug fixes, and improvements: MrTusarRX
 
