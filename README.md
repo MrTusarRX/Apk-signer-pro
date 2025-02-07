@@ -42,3 +42,8 @@ This Signer Lib was Made By [Developer Krushna](https://github.com/developer-kru
 ---
 
 > ⚠️ Note: This source code was first uploaded by [PuruliaKing007](https://github.com/PuruliaKing007), not by me.
+> If you encounter any errors or issues while using this project, feel free to reach out.  
+> 📧 **Contact:** [khantusar717@gmail.com](mailto:khantusar717@gmail.com)  
+
+---
+© 2025. All rights reserved.
