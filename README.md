@@ -25,10 +25,7 @@ I (**MrTusarRX**) have fixed the auto-close crash issue, removed all known bugs,
    git clone https://github.com/MrTusarRX/Apk-signer-pro.git
    cd Apk-signer-pro
    ```
-
-
-
-   2. Compile the project using Java.
+ 2. Compile the project using Java.
 
 
 3. Run the tool and select the APK file you want to sign.
