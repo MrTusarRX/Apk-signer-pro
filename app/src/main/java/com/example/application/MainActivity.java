@@ -163,7 +163,8 @@ public class MainActivity extends AppCompatActivity {
 		if (!editText.getText().toString().isEmpty())
 			StartSign();
 		else
-			toast("Enter file path or select apk manualy");
+	String str = "Enter file path or select apk manualy";
+		Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
 	}
 	});
 
@@ -199,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
 						if (file1.getName().endsWith(".apk") || file1.getName().endsWith(".APK")) {
 							editText.setText(file1.getAbsolutePath());
 						} else {
-							toast("Error");
+							Toast.makeText(this,"error" , Toast.LENGTH_SHORT).show();
 						}
                     }         
                 }
@@ -277,9 +278,7 @@ public class MainActivity extends AppCompatActivity {
 		alertDialog.show();
 	}
 
-	public void toast(String str) {
-		Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
-	}
+
 
 	
 	
