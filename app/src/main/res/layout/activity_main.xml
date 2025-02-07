@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="20dp"
+	android:background="@android:color/white">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Sign Your APK"
+		android:textSize="24sp"
+		android:textColor="@android:color/black"
+		android:textStyle="bold"
+		android:layout_gravity="center"
+		android:paddingBottom="15dp"/>
+
+	<androidx.cardview.widget.CardView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:cardCornerRadius="10dp"
+		app:cardElevation="4dp"
+		android:padding="10dp"
+		android:layout_marginBottom="15dp">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="Enter .apk path"
+				android:background="@null"
+				android:textColorHint="@android:color/darker_gray"
+				android:padding="10dp"
+				android:id="@+id/activitymainEditText1"/>
+
+			<ImageView
+				android:src="@drawable/ic_file_download"
+				android:background="?android:attr/selectableItemBackground"
+				android:focusable="true"
+				android:clickable="true"
+				android:layout_width="35dp"
+				android:layout_height="35dp"
+				android:layout_alignParentEnd="true"
+				android:layout_margin="5dp"
+				android:scaleType="centerInside"
+				android:id="@+id/activitymainImageView1"/>
+		</RelativeLayout>
+	</androidx.cardview.widget.CardView>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:layout_marginBottom="10dp">
+
+		<TextView
+			android:layout_width="120dp"
+			android:layout_height="wrap_content"
+			android:text="Signature Key"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="@android:color/black"/>
+
+		<Spinner
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/activitymainSpinner1"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:layout_marginBottom="15dp">
+
+		<TextView
+			android:layout_width="120dp"
+			android:layout_height="wrap_content"
+			android:text="Scheme"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="@android:color/black"/>
+
+		<Spinner
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/activitymainSpinner2"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="50dp"
+			android:text="Clear"
+			android:textSize="16sp"
+			android:textColor="@android:color/white"
+			android:background="@android:color/holo_red_dark"
+			android:id="@+id/clearButton"
+			android:layout_marginEnd="10dp"
+			android:elevation="4dp"
+			android:padding="10dp"/>
+
+		<Button
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="50dp"
+			android:text="Sign APK"
+			android:textSize="16sp"
+			android:textColor="@android:color/white"
+			android:background="@android:color/holo_blue_dark"
+			android:id="@+id/activitymainButton1"
+			android:elevation="4dp"
+			android:padding="10dp"/>
+	</LinearLayout>
+
+</LinearLayout>
