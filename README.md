@@ -3,8 +3,6 @@
 APK Signer Pro is a powerful APK signing tool written in Java. This tool allows users to sign APK files quickly and efficiently.  
 
 ## 🔍 About  
-
-This project was originally created by [**PuruliaKing007**](https://github.com/PuruliaKing007).  
 I (**MrTusarRX**) have fixed the auto-close crash issue, removed all known bugs, and made some additional modifications to improve its stability.  
 
 ## ✨ Features  
@@ -36,10 +34,12 @@ I (**MrTusarRX**) have fixed the auto-close crash issue, removed all known bugs,
 
 🎩 Original author: [PuruliaKing007](https://github.com/PuruliaKing007)
 
+original src [ApkSignerTool](https://github.com/PuruliaKing007/ApkSignerTool)
+
 🛠 Modifications, bug fixes, and improvements: MrTusarRX
 
 
 
 ---
 
-> ⚠️ Note: This source code was first uploaded by [PuruliaKing007](https://github.com/PuruliaKing007), not created by me.
+> ⚠️ Note: This source code was first uploaded by [PuruliaKing007](https://github.com/PuruliaKing007), not by me.
