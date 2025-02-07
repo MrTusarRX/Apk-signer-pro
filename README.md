@@ -33,7 +33,7 @@ I (**MrTusarRX**) have fixed the auto-close crash issue, removed all known bugs,
 🙌 Credits
 
 
-This Signer Lib was Made By [Developer Krushna](https://github.com/developer-krushna?tab=repositories)
+This project uses the **Signer Java Library**, which was developed by [Developer Krushna](https://github.com/developer-krushna?tab=repositories).  
 
 🛠 Modifications, bug fixes, and improvements: MrTusarRX
 
