@@ -1,6 +1,4 @@
 <resources>
-
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -8,4 +6,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-</resources>
+    <style name="CustomDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+		
+	</resources>
+	
